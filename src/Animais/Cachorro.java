@@ -2,14 +2,17 @@ package Animais;
 
 public class Cachorro {
 
+    static int numeroDeCachorros;
     private String nome;
     private String raca;
     private String cor;
     private int altura;
     private double peso;
-    private String estadoDeEspirito;
+    private String estadoDeEspirito = "normal";
 
-    public Cachorro() {}
+    public Cachorro() {
+        numeroDeCachorros++;
+    }
 
     public Cachorro(String nome, String raca, String cor, int altura, double peso) {
         this.nome = nome;
@@ -17,6 +20,11 @@ public class Cachorro {
         this.cor = cor;
         this.altura = altura;
         this.peso = peso;
+        numeroDeCachorros++;
+    }
+
+    public static int getNumeroDeCachorros() {
+        return numeroDeCachorros;
     }
 
     public String getNome() {
@@ -98,8 +106,8 @@ public class Cachorro {
                 "nome='" + nome + '\'' +
                 ", raca='" + raca + '\'' +
                 ", cor='" + cor + '\'' +
-                ", altura=" + altura +
-                ", peso=" + peso +
+                ", altura=" + altura + "cm" +
+                ", peso=" + peso + "kg" +
                 ", estadoDeEspirito='" + estadoDeEspirito + '\'' +
                 '}';
     }
