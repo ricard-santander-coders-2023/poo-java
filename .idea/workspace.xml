@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fbb9d6f4-d267-4e0c-adca-d735677772bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Animais/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animais/Gato.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Animais/Passaro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lojas/Petshop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Animais/Cachorro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animais/Cachorro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Animais/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Animais/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +39,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "heranca",
+    "git-widget-placeholder": "polimorfismo",
     "onboarding.tips.debug.path": "D:/SANTANDER_CODERS_2023/JAVA/poo-java/src/Main.java",
     "settings.editor.selected.configurable": "inlay.hints"
   }
