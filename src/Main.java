@@ -1,4 +1,3 @@
-import Animais.Animal;
 import Animais.Cachorro;
 import Animais.Gato;
 import Animais.Passaro;
@@ -6,11 +5,15 @@ import Lojas.Petshop;
 
 public class Main {
     public static void main(String[] args) {
+
+        Cachorro meuDog = new Cachorro("Fuffy", "mista", "branco", 42, 32.5);
+
         Gato bichano = new Gato("Garfield", "persa", "laranja/listras pretas", 28, 45);
-//        Gato bichano3 = new Animal("Garfield", "persa", "laranja/listras pretas", 28);
-        Animal bichano2 = new Gato("Garfield", "persa", "laranja/listras pretas", 28, 45);
-//        Animal bichano4 = new Animal("Garfield", "persa", "laranja/listras pretas", 28); // funciona mas incorreto, claase tem que ser abstrata
 
+        Passaro piuPiu = new Passaro("Piu-piu", "canario", "amarelo", 0.5);
 
+       meuDog.soar();
+       bichano.soar();
+       piuPiu.soar();
     }
 }
