@@ -1,6 +1,6 @@
 package Animais;
 
-public class Cachorro {
+public class Cachorro extends Animal {
 
     static int numeroDeCachorros;
     private String nome;
@@ -71,12 +71,13 @@ public class Cachorro {
         System.out.println("Está comendo!");
     }
 
-    public void latir() {
-        System.out.println("Au au!!");
-    }
-
     public String pegar() {
         return "bolinha";
+    }
+
+    @Override
+    public void soar() {
+        System.out.println("Au au!");
     }
 
     public String interagir(String acao) {
